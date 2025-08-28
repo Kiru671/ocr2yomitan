@@ -1,0 +1,409 @@
+﻿2025-08-19 20:20:26.105 - ShareX starting.
+2025-08-19 20:20:26.107 - Version: 18.0.1
+2025-08-19 20:20:26.107 - Build: Release
+2025-08-19 20:20:26.107 - Command line: "C:\Program Files\ShareX\ShareX.dll"
+2025-08-19 20:20:26.107 - Personal path: D:\PythonProjects\OCR
+2025-08-19 20:20:26.107 - Personal path detection method: PersonalPath.cfg file (C:\Users\Nilgu\OneDrive\Belgeler\ShareX\PersonalPath.cfg)
+2025-08-19 20:20:26.108 - Operating system: Windows 10 Pro (64-bit)
+2025-08-19 20:20:26.109 - .NET version: 9.0.8
+2025-08-19 20:20:26.109 - Running as elevated process: False
+2025-08-19 20:20:26.124 - ApplicationConfig file does not exist: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-19 20:20:26.124 - ApplicationConfig file does not exist: D:\PythonProjects\OCR\ApplicationConfig.json.temp
+2025-08-19 20:20:26.124 - ApplicationConfig file does not exist: D:\PythonProjects\OCR\Backup\ApplicationConfig.json
+2025-08-19 20:20:26.124 - Loading new ApplicationConfig instance.
+2025-08-19 20:20:26.269 - MainForm init started.
+2025-08-19 20:20:26.269 - UploadersConfig file does not exist: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-19 20:20:26.269 - UploadersConfig file does not exist: D:\PythonProjects\OCR\UploadersConfig.json.temp
+2025-08-19 20:20:26.269 - UploadersConfig file does not exist: D:\PythonProjects\OCR\Backup\UploadersConfig.json
+2025-08-19 20:20:26.269 - Loading new UploadersConfig instance.
+2025-08-19 20:20:26.273 - HotkeysConfig file does not exist: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-19 20:20:26.273 - HotkeysConfig file does not exist: D:\PythonProjects\OCR\HotkeysConfig.json.temp
+2025-08-19 20:20:26.273 - HotkeysConfig file does not exist: D:\PythonProjects\OCR\Backup\HotkeysConfig.json
+2025-08-19 20:20:26.273 - Loading new HotkeysConfig instance.
+2025-08-19 20:20:26.800 - MainForm init finished.
+2025-08-19 20:20:26.944 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-19 20:20:26.944 - Hotkey registered: Hotkey: Print Screen, Description: Tüm ekranı yakala, Job: PrintScreen
+2025-08-19 20:20:26.944 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Aktif pencereyi yakala, Job: ActiveWindow
+2025-08-19 20:20:26.944 - Unable to register hotkey: Shift + Print Screen
+2025-08-19 20:20:26.944 - Hotkey register failed: Hotkey: Shift + Print Screen, Description: Ekran kaydetme başlat/durdur, Job: ScreenRecorder
+2025-08-19 20:20:26.944 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Ekran kaydetme (GIF) başlat/durdur, Job: ScreenRecorderGIF
+2025-08-19 20:20:29.044 - HotkeyManager started.
+2025-08-19 20:20:29.044 - WatchFolderManager started.
+2025-08-19 20:20:29.070 - Startup time: 3045 ms
+2025-08-19 20:20:29.640 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-19 20:20:29.640 - UploadersConfig save started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-19 20:20:29.640 - HotkeysConfig save started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-19 20:20:29.706 - HotkeysConfig save successful: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-19 20:20:29.746 - UploadersConfig save successful: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-19 20:20:29.837 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-19 20:20:50.444 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-19 20:20:50.445 - Executing: Bölge yakala
+2025-08-19 20:20:58.185 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2025-08-19 20:20:58.244 - Task status: Preparing
+2025-08-19 20:20:58.259 - Image copied to clipboard.
+2025-08-19 20:20:58.270 - Image saved to file: D:\PythonProjects\OCR\Screenshots\2025-08\brave_WmDyy4wuQN.png
+2025-08-19 20:20:59.598 - Task completed. File name: brave_WmDyy4wuQN.png, Duration: 1351 ms
+2025-08-19 20:21:17.555 - Executing: Ana pencereyi aç
+2025-08-19 20:21:34.554 - Exception:
+System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue, StringComparison comparisonType)
+   at ShareX.HelpersLib.FileHelpers.GetVariableFolderPath(String path, Boolean supportCustomSpecialFolders)
+2025-08-19 20:21:44.426 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-19 20:21:44.426 - Executing: Bölge yakala
+2025-08-19 20:21:52.251 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-19 20:21:52.267 - Task status: Preparing
+2025-08-19 20:21:52.274 - Image copied to clipboard.
+2025-08-19 20:21:52.277 - Image saved to file: D:\PythonProjects\OCR\2025-08\brave_PaeHPtEARm.png
+2025-08-19 20:21:52.287 - Task completed. File name: brave_PaeHPtEARm.png, Duration: 20 ms
+2025-08-19 20:22:18.431 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-19 20:22:18.544 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-19 20:22:34.147 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-19 20:22:34.147 - Executing: Bölge yakala
+2025-08-19 20:22:40.929 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-19 20:22:40.947 - Task status: Preparing
+2025-08-19 20:22:40.960 - Image copied to clipboard.
+2025-08-19 20:22:40.962 - Image saved to file: D:\PythonProjects\OCR\brave_c02KIwwndl.png
+2025-08-19 20:22:40.976 - Task completed. File name: brave_c02KIwwndl.png, Duration: 30 ms
+2025-08-19 20:26:44.407 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-19 20:26:44.498 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-19 20:29:26.443 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-19 20:29:26.443 - Executing: Bölge yakala
+2025-08-19 20:29:39.443 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-19 20:29:39.443 - Executing: Bölge yakala
+2025-08-19 20:29:42.784 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-19 20:29:42.797 - Task status: Preparing
+2025-08-19 20:29:42.807 - Image copied to clipboard.
+2025-08-19 20:29:42.810 - Image saved to file: D:\PythonProjects\OCR\brave_3Cpm4YAn0z.png
+2025-08-19 20:29:42.826 - Task completed. File name: brave_3Cpm4YAn0z.png, Duration: 29 ms
+2025-08-19 20:31:24.267 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-19 20:31:24.267 - Executing: Bölge yakala
+2025-08-19 20:31:29.599 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-19 20:31:29.615 - Task status: Preparing
+2025-08-19 20:31:29.621 - Image copied to clipboard.
+2025-08-19 20:31:29.622 - Image saved to file: D:\PythonProjects\OCR\brave_XcKoRqJ4Ou.png
+2025-08-19 20:31:29.646 - Task completed. File name: brave_XcKoRqJ4Ou.png, Duration: 31 ms
+2025-08-19 20:31:30.403 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-19 20:31:30.403 - Executing: Bölge yakala
+2025-08-19 20:31:32.856 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-19 20:31:32.887 - Task status: Preparing
+2025-08-19 20:31:32.891 - Image copied to clipboard.
+2025-08-19 20:31:32.893 - Image saved to file: D:\PythonProjects\OCR\brave_hre71OZopr.png
+2025-08-19 20:31:32.901 - Task completed. File name: brave_hre71OZopr.png, Duration: 14 ms
+2025-08-19 20:31:48.515 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-19 20:31:48.515 - UploadersConfig save started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-19 20:31:48.516 - HotkeysConfig save started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-19 20:31:48.530 - HotkeysConfig save successful: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-19 20:31:48.556 - UploadersConfig save successful: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-19 20:31:48.617 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-19 20:32:04.539 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-19 20:32:04.539 - Executing: Bölge yakala
+2025-08-19 20:32:10.519 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-19 20:32:10.528 - Task status: Preparing
+2025-08-19 20:32:10.530 - Image copied to clipboard.
+2025-08-19 20:32:10.531 - Image saved to file: D:\PythonProjects\OCR\brave_wsasG9YNCx.png
+2025-08-19 20:32:10.532 - Task completed. File name: brave_wsasG9YNCx.png, Duration: 4 ms
+2025-08-20 00:45:10.636 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 00:45:10.636 - Executing: Bölge yakala
+2025-08-20 00:45:14.641 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 00:45:14.657 - Task status: Preparing
+2025-08-20 00:45:14.661 - Image copied to clipboard.
+2025-08-20 00:45:14.666 - Image saved to file: D:\PythonProjects\OCR\brave_YDpPW0CnlU.png
+2025-08-20 00:45:14.668 - Task completed. File name: brave_YDpPW0CnlU.png, Duration: 11 ms
+2025-08-20 00:55:16.059 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 00:55:16.060 - Executing: Bölge yakala
+2025-08-20 00:55:19.758 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 00:55:19.768 - Task status: Preparing
+2025-08-20 00:55:19.771 - Image copied to clipboard.
+2025-08-20 00:55:19.773 - Image saved to file: D:\PythonProjects\OCR\brave_wyWNwKIzFY.png
+2025-08-20 00:55:19.774 - Task completed. File name: brave_wyWNwKIzFY.png, Duration: 6 ms
+2025-08-20 01:03:14.515 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 01:03:14.516 - Executing: Bölge yakala
+2025-08-20 01:03:17.378 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 01:03:17.389 - Task status: Preparing
+2025-08-20 01:03:17.392 - Image copied to clipboard.
+2025-08-20 01:03:17.396 - Image saved to file: D:\PythonProjects\OCR\brave_KcWjEO3slj.png
+2025-08-20 01:03:17.397 - Task completed. File name: brave_KcWjEO3slj.png, Duration: 8 ms
+2025-08-20 01:06:10.859 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 01:06:10.860 - Executing: Bölge yakala
+2025-08-20 01:06:13.367 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 01:06:13.375 - Task status: Preparing
+2025-08-20 01:06:13.377 - Image copied to clipboard.
+2025-08-20 01:06:13.379 - Image saved to file: D:\PythonProjects\OCR\brave_GSmjsSGwCo.png
+2025-08-20 01:06:13.380 - Task completed. File name: brave_GSmjsSGwCo.png, Duration: 5 ms
+2025-08-20 01:15:46.372 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 01:15:46.372 - Executing: Bölge yakala
+2025-08-20 01:15:49.968 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 01:15:49.979 - Task status: Preparing
+2025-08-20 01:15:49.982 - Image copied to clipboard.
+2025-08-20 01:15:49.986 - Image saved to file: D:\PythonProjects\OCR\brave_STnDGtMUzy.png
+2025-08-20 01:15:49.987 - Task completed. File name: brave_STnDGtMUzy.png, Duration: 8 ms
+2025-08-20 01:17:40.355 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 01:17:40.356 - Executing: Bölge yakala
+2025-08-20 01:17:43.516 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 01:17:43.531 - Task status: Preparing
+2025-08-20 01:17:43.543 - Image copied to clipboard.
+2025-08-20 01:17:43.547 - Image saved to file: D:\PythonProjects\OCR\sekiro_CC5g0Fj8c5.png
+2025-08-20 01:17:43.549 - Task completed. File name: sekiro_CC5g0Fj8c5.png, Duration: 18 ms
+2025-08-20 01:18:13.424 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 01:18:13.424 - Executing: Bölge yakala
+2025-08-20 01:18:15.357 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 01:18:15.370 - Task status: Preparing
+2025-08-20 01:18:15.377 - Image copied to clipboard.
+2025-08-20 01:18:15.378 - Image saved to file: D:\PythonProjects\OCR\sekiro_9ymMikyGJp.png
+2025-08-20 01:18:15.379 - Task completed. File name: sekiro_9ymMikyGJp.png, Duration: 9 ms
+2025-08-20 01:18:43.331 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 01:18:43.332 - Executing: Bölge yakala
+2025-08-20 01:18:46.639 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 01:18:46.651 - Task status: Preparing
+2025-08-20 01:18:46.655 - Image copied to clipboard.
+2025-08-20 01:18:46.657 - Image saved to file: D:\PythonProjects\OCR\sekiro_7w9ulprEtS.png
+2025-08-20 01:18:46.658 - Task completed. File name: sekiro_7w9ulprEtS.png, Duration: 8 ms
+2025-08-20 01:19:41.820 - Hotkey triggered. Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 01:19:41.820 - Executing: Bölge yakala
+2025-08-20 01:19:49.588 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 01:19:49.605 - Task status: Preparing
+2025-08-20 01:19:49.612 - Image copied to clipboard.
+2025-08-20 01:19:49.615 - Image saved to file: D:\PythonProjects\OCR\sekiro_b4dKTM3Dwa.png
+2025-08-20 01:19:49.617 - Task completed. File name: sekiro_b4dKTM3Dwa.png, Duration: 12 ms
+2025-08-20 01:20:38.918 - ShareX closing.
+2025-08-20 01:20:38.933 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 01:20:39.062 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 01:20:39.062 - UploadersConfig save started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 01:20:39.117 - UploadersConfig save successful: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 01:20:39.118 - HotkeysConfig save started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 01:20:39.137 - HotkeysConfig save successful: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 01:20:39.137 - ShareX closed.
+2025-08-20 10:20:24.261 - ShareX starting.
+2025-08-20 10:20:24.265 - Version: 18.0.1
+2025-08-20 10:20:24.266 - Build: Release
+2025-08-20 10:20:24.266 - Command line: "C:\Program Files\ShareX\ShareX.dll" -silent
+2025-08-20 10:20:24.266 - Personal path: D:\PythonProjects\OCR
+2025-08-20 10:20:24.266 - Personal path detection method: PersonalPath.cfg file (C:\Users\Nilgu\OneDrive\Belgeler\ShareX\PersonalPath.cfg)
+2025-08-20 10:20:24.267 - Operating system: Windows 10 Pro (64-bit)
+2025-08-20 10:20:24.268 - .NET version: 9.0.8
+2025-08-20 10:20:24.268 - Running as elevated process: False
+2025-08-20 10:20:24.311 - Flags: SilentRun
+2025-08-20 10:20:24.562 - ApplicationConfig load started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:20:26.502 - ApplicationConfig load finished: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:20:26.979 - MainForm init started.
+2025-08-20 10:20:26.980 - UploadersConfig load started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:20:27.307 - UploadersConfig load finished: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:20:27.308 - HotkeysConfig load started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:20:27.334 - HotkeysConfig load finished: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:20:27.796 - MainForm init finished.
+2025-08-20 10:20:27.909 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 10:20:27.909 - Hotkey registered: Hotkey: Print Screen, Description: Tüm ekranı yakala, Job: PrintScreen
+2025-08-20 10:20:27.910 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Aktif pencereyi yakala, Job: ActiveWindow
+2025-08-20 10:20:27.910 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Ekran kaydetme başlat/durdur, Job: ScreenRecorder
+2025-08-20 10:20:27.910 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Ekran kaydetme (GIF) başlat/durdur, Job: ScreenRecorderGIF
+2025-08-20 10:20:27.910 - HotkeyManager started.
+2025-08-20 10:20:27.911 - WatchFolderManager started.
+2025-08-20 10:20:27.921 - Startup time: 3850 ms
+2025-08-20 10:20:27.922 - CommandLine: -silent
+2025-08-20 10:30:13.988 - Executing: Bölge yakala
+2025-08-20 10:30:16.901 - Executing: Bölge yakala
+2025-08-20 10:30:20.728 - UploadersConfig save started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:30:20.728 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:30:20.729 - HotkeysConfig save started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:30:20.778 - HotkeysConfig save successful: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:30:20.797 - UploadersConfig save successful: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:30:20.853 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:30:59.770 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:30:59.771 - UploadersConfig save started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:30:59.771 - HotkeysConfig save started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:30:59.803 - HotkeysConfig save successful: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:30:59.829 - UploadersConfig save successful: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:30:59.872 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:31:00.362 - Found program with first method: C:\Program Files\Adobe\Adobe Photoshop 2025\Photoshop.exe
+2025-08-20 10:32:26.243 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:32:26.243 - UploadersConfig save started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:32:26.243 - HotkeysConfig save started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:32:26.263 - HotkeysConfig save successful: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:32:26.281 - UploadersConfig save successful: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:32:26.335 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:32:52.866 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:32:52.866 - UploadersConfig save started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:32:52.866 - HotkeysConfig save started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:32:52.883 - HotkeysConfig save successful: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:32:52.911 - UploadersConfig save successful: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:32:52.967 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:32:58.325 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:32:58.325 - UploadersConfig save started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:32:58.325 - HotkeysConfig save started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:32:58.356 - HotkeysConfig save successful: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:32:58.370 - UploadersConfig save successful: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:32:58.426 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:33:01.344 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:33:01.344 - UploadersConfig save started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:33:01.344 - HotkeysConfig save started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:33:01.361 - HotkeysConfig save successful: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:33:01.380 - UploadersConfig save successful: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 10:33:01.438 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:33:53.628 - Hotkey unregistered: Hotkey: None, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 10:33:54.045 - Hotkey registered: Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 10:33:59.027 - HotkeysConfig save started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:33:59.049 - HotkeysConfig save successful: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 10:33:59.688 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:33:59.768 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:34:00.446 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 10:34:00.552 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 11:30:47.007 - ApplicationConfig save started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 11:30:47.094 - ApplicationConfig save successful: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 11:44:43.128 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 11:44:43.128 - Executing: Bölge yakala
+2025-08-20 11:44:47.344 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 11:44:47.413 - Task status: Preparing
+2025-08-20 11:44:47.429 - Image copied to clipboard.
+2025-08-20 11:44:47.435 - Image saved to file: D:\PythonProjects\OCR\WindowsTerminal_VZiMjqKPyA.png
+2025-08-20 11:44:47.440 - Task completed. File name: WindowsTerminal_VZiMjqKPyA.png, Duration: 25 ms
+2025-08-20 11:44:59.615 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 11:44:59.615 - Executing: Bölge yakala
+2025-08-20 11:45:01.351 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 11:45:01.357 - Task status: Preparing
+2025-08-20 11:45:01.361 - Image copied to clipboard.
+2025-08-20 11:45:01.363 - Image saved to file: D:\PythonProjects\OCR\brave_hNe9IwNSdL.png
+2025-08-20 11:45:01.364 - Task completed. File name: brave_hNe9IwNSdL.png, Duration: 7 ms
+2025-08-20 11:51:16.423 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 11:51:16.423 - Executing: Bölge yakala
+2025-08-20 11:51:20.019 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 11:51:20.027 - Task status: Preparing
+2025-08-20 11:51:20.031 - Image copied to clipboard.
+2025-08-20 11:51:20.032 - Image saved to file: D:\PythonProjects\OCR\brave_IK9zdVpQ4c.png
+2025-08-20 11:51:20.033 - Task completed. File name: brave_IK9zdVpQ4c.png, Duration: 7 ms
+2025-08-20 12:15:56.024 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 12:15:56.024 - Executing: Bölge yakala
+2025-08-20 12:15:57.020 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 12:15:57.028 - Task status: Preparing
+2025-08-20 12:15:57.095 - Image copied to clipboard.
+2025-08-20 12:15:57.133 - Image saved to file: D:\PythonProjects\OCR\brave_K9F5hxEJSm.png
+2025-08-20 12:15:57.159 - Task completed. File name: brave_K9F5hxEJSm.png, Duration: 131 ms
+2025-08-20 12:15:58.272 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 12:15:58.272 - Executing: Bölge yakala
+2025-08-20 12:16:00.898 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 12:16:00.908 - Task status: Preparing
+2025-08-20 12:16:00.912 - Image copied to clipboard.
+2025-08-20 12:16:00.913 - Image saved to file: D:\PythonProjects\OCR\brave_lJXhSEPPQQ.png
+2025-08-20 12:16:00.914 - Task completed. File name: brave_lJXhSEPPQQ.png, Duration: 6 ms
+2025-08-20 12:28:13.520 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 12:28:13.520 - Executing: Bölge yakala
+2025-08-20 12:28:14.695 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 12:28:14.702 - Task status: Preparing
+2025-08-20 12:28:14.708 - Image copied to clipboard.
+2025-08-20 12:28:14.711 - Image saved to file: D:\PythonProjects\OCR\brave_jc098bPrX0.png
+2025-08-20 12:28:14.714 - Task completed. File name: brave_jc098bPrX0.png, Duration: 12 ms
+2025-08-20 12:36:05.984 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 12:36:05.985 - Executing: Bölge yakala
+2025-08-20 12:36:08.124 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 12:36:08.131 - Task status: Preparing
+2025-08-20 12:36:08.134 - Image copied to clipboard.
+2025-08-20 12:36:08.135 - Image saved to file: D:\PythonProjects\OCR\Discord_n169IDbEaL.png
+2025-08-20 12:36:08.135 - Task completed. File name: Discord_n169IDbEaL.png, Duration: 4 ms
+2025-08-20 13:17:28.966 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 13:17:28.967 - Executing: Bölge yakala
+2025-08-20 13:17:31.280 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 13:17:31.290 - Task status: Preparing
+2025-08-20 13:17:31.293 - Image copied to clipboard.
+2025-08-20 13:17:31.298 - Image saved to file: D:\PythonProjects\OCR\brave_ZCexEOFqQF.png
+2025-08-20 13:17:31.299 - Task completed. File name: brave_ZCexEOFqQF.png, Duration: 9 ms
+2025-08-20 13:17:34.577 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 13:17:34.578 - Executing: Bölge yakala
+2025-08-20 13:17:37.676 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 13:17:37.684 - Task status: Preparing
+2025-08-20 13:17:37.687 - Image copied to clipboard.
+2025-08-20 13:17:37.689 - Image saved to file: D:\PythonProjects\OCR\WindowsTerminal_u7Co4sSlK5.png
+2025-08-20 13:17:37.689 - Task completed. File name: WindowsTerminal_u7Co4sSlK5.png, Duration: 5 ms
+2025-08-20 13:17:42.178 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 13:17:42.178 - Executing: Bölge yakala
+2025-08-20 13:17:44.500 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 13:17:44.528 - Task status: Preparing
+2025-08-20 13:17:44.530 - Image copied to clipboard.
+2025-08-20 13:17:44.532 - Image saved to file: D:\PythonProjects\OCR\brave_Xhm4wFSng0.png
+2025-08-20 13:17:44.533 - Task completed. File name: brave_Xhm4wFSng0.png, Duration: 6 ms
+2025-08-20 13:17:52.170 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 13:17:52.170 - Executing: Bölge yakala
+2025-08-20 13:17:54.343 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 13:17:54.349 - Task status: Preparing
+2025-08-20 13:17:54.351 - Image copied to clipboard.
+2025-08-20 13:17:54.352 - Image saved to file: D:\PythonProjects\OCR\brave_iaCG9uX3se.png
+2025-08-20 13:17:54.352 - Task completed. File name: brave_iaCG9uX3se.png, Duration: 4 ms
+2025-08-20 13:24:07.378 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 13:24:07.378 - Executing: Bölge yakala
+2025-08-20 13:24:09.575 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 13:24:09.581 - Task status: Preparing
+2025-08-20 13:24:09.584 - Image copied to clipboard.
+2025-08-20 13:24:09.586 - Image saved to file: D:\PythonProjects\OCR\brave_Cj2YAcE62t.png
+2025-08-20 13:24:09.587 - Task completed. File name: brave_Cj2YAcE62t.png, Duration: 6 ms
+2025-08-20 14:51:30.637 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 14:51:30.637 - Executing: Bölge yakala
+2025-08-20 14:51:33.536 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 14:51:33.548 - Task status: Preparing
+2025-08-20 14:51:33.551 - Image copied to clipboard.
+2025-08-20 14:51:33.554 - Image saved to file: D:\PythonProjects\OCR\Code_eyZk7YBiFI.png
+2025-08-20 14:51:33.555 - Task completed. File name: Code_eyZk7YBiFI.png, Duration: 6 ms
+2025-08-20 15:00:31.837 - ShareX starting.
+2025-08-20 15:00:31.839 - Version: 18.0.1
+2025-08-20 15:00:31.839 - Build: Release
+2025-08-20 15:00:31.839 - Command line: "C:\Program Files\ShareX\ShareX.dll" -silent
+2025-08-20 15:00:31.839 - Personal path: D:\PythonProjects\OCR
+2025-08-20 15:00:31.840 - Personal path detection method: PersonalPath.cfg file (C:\Users\Nilgu\OneDrive\Belgeler\ShareX\PersonalPath.cfg)
+2025-08-20 15:00:31.840 - Operating system: Windows 10 Pro (64-bit)
+2025-08-20 15:00:31.841 - .NET version: 9.0.8
+2025-08-20 15:00:31.841 - Running as elevated process: False
+2025-08-20 15:00:31.874 - Flags: SilentRun
+2025-08-20 15:00:32.019 - ApplicationConfig load started: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 15:00:33.748 - ApplicationConfig load finished: D:\PythonProjects\OCR\ApplicationConfig.json
+2025-08-20 15:00:34.404 - MainForm init started.
+2025-08-20 15:00:34.405 - UploadersConfig load started: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 15:00:34.721 - UploadersConfig load finished: D:\PythonProjects\OCR\UploadersConfig.json
+2025-08-20 15:00:34.722 - HotkeysConfig load started: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 15:00:34.760 - HotkeysConfig load finished: D:\PythonProjects\OCR\HotkeysConfig.json
+2025-08-20 15:00:35.169 - MainForm init finished.
+2025-08-20 15:00:35.288 - Hotkey registered: Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 15:00:35.288 - Hotkey registered: Hotkey: Print Screen, Description: Tüm ekranı yakala, Job: PrintScreen
+2025-08-20 15:00:35.288 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Aktif pencereyi yakala, Job: ActiveWindow
+2025-08-20 15:00:35.288 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Ekran kaydetme başlat/durdur, Job: ScreenRecorder
+2025-08-20 15:00:35.288 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Ekran kaydetme (GIF) başlat/durdur, Job: ScreenRecorderGIF
+2025-08-20 15:00:35.288 - HotkeyManager started.
+2025-08-20 15:00:35.289 - WatchFolderManager started.
+2025-08-20 15:00:35.299 - Startup time: 3571 ms
+2025-08-20 15:00:35.301 - CommandLine: -silent
+2025-08-20 15:23:08.056 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 15:23:08.063 - Executing: Bölge yakala
+2025-08-20 15:23:12.804 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 15:23:12.972 - Task status: Preparing
+2025-08-20 15:23:13.171 - Image copied to clipboard.
+2025-08-20 15:23:13.382 - Image saved to file: D:\PythonProjects\OCR\rpcs3_RKxbaky03e.jpg
+2025-08-20 15:23:13.429 - Task completed. File name: rpcs3_RKxbaky03e.jpg, Duration: 454 ms
+2025-08-20 15:26:02.133 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 15:26:02.133 - Executing: Bölge yakala
+2025-08-20 15:26:04.499 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 15:26:04.506 - Task status: Preparing
+2025-08-20 15:26:04.550 - Image copied to clipboard.
+2025-08-20 15:26:04.586 - Image saved to file: D:\PythonProjects\OCR\brave_MklexdsRDn.png
+2025-08-20 15:26:04.608 - Task completed. File name: brave_MklexdsRDn.png, Duration: 101 ms
+2025-08-20 15:26:11.149 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 15:26:11.149 - Executing: Bölge yakala
+2025-08-20 15:26:15.002 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 15:26:15.003 - Executing: Bölge yakala
+2025-08-20 15:26:16.264 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 15:26:16.274 - Task status: Preparing
+2025-08-20 15:26:16.472 - Image copied to clipboard.
+2025-08-20 15:26:16.691 - Image saved to file: D:\PythonProjects\OCR\5rPNNzDsaZ.jpg
+2025-08-20 15:26:16.730 - Task completed. File name: 5rPNNzDsaZ.jpg, Duration: 456 ms
+2025-08-20 15:26:17.509 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 15:26:17.509 - Executing: Bölge yakala
+2025-08-20 15:35:41.419 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 15:35:41.420 - Executing: Bölge yakala
+2025-08-20 15:35:44.395 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 15:35:44.403 - Task status: Preparing
+2025-08-20 15:35:44.639 - Image copied to clipboard.
+2025-08-20 15:35:44.894 - Image saved to file: D:\PythonProjects\OCR\rpcs3_zC4JElAIGF.jpg
+2025-08-20 15:35:44.931 - Task completed. File name: rpcs3_zC4JElAIGF.jpg, Duration: 529 ms
+2025-08-20 15:35:59.139 - Hotkey triggered. Hotkey: Ctrl + Shift + E, Description: Bölge yakala, Job: RectangleRegion
+2025-08-20 15:35:59.139 - Executing: Bölge yakala
+2025-08-20 15:36:00.667 - Task in queue. Job: Job, Type: Image, Host: 
+2025-08-20 15:36:00.678 - Task status: Preparing
+2025-08-20 15:36:00.749 - Image copied to clipboard.
+2025-08-20 15:36:00.785 - Image saved to file: D:\PythonProjects\OCR\brave_ueqRoMCQFr.png
+2025-08-20 15:36:00.809 - Task completed. File name: brave_ueqRoMCQFr.png, Duration: 131 ms

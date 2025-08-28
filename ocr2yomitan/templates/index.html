@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Japanese OCR</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .header {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 1rem 2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .header h1 {
+      font-size: 2rem;
+      font-weight: 300;
+      color: #64b5f6;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .status-indicator {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #4caf50;
+      animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.5; }
+      100% { opacity: 1; }
+    }
+    
+    .main-content {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    
+    .ocr-section {
+      flex: 2;
+      min-width: 400px;
+    }
+    
+    .info-section {
+      flex: 1;
+      min-width: 300px;
+    }
+    
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      margin-bottom: 1rem;
+    }
+    
+    .card h2 {
+      color: #81c784;
+      margin-bottom: 1rem;
+      font-weight: 400;
+    }
+    
+    #ocr-text {
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+      padding: 1.5rem;
+      min-height: 200px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-family: 'Consolas', 'Monaco', monospace;
+    }
+    
+    .empty-state {
+      color: #999;
+      font-style: italic;
+      text-align: center;
+      padding: 2rem;
+    }
+    
+    .status-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .status-item:last-child {
+      border-bottom: none;
+    }
+    
+    .status-value {
+      color: #64b5f6;
+      font-weight: 500;
+    }
+    
+    .instructions {
+      background: rgba(100, 181, 246, 0.1);
+      border-left: 4px solid #64b5f6;
+      padding: 1rem;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 1rem;
+    }
+    
+    .instructions ul {
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+    }
+    
+    .instructions li {
+      margin-bottom: 0.25rem;
+    }
+    
+    .footer {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem 2rem;
+      text-align: center;
+      color: #999;
+      font-size: 0.9rem;
+    }
+    
+    .error {
+      color: #f48fb1;
+      background: rgba(244, 143, 177, 0.1);
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid rgba(244, 143, 177, 0.3);
+    }
+    
+    @media (max-width: 768px) {
+      .main-content {
+        flex-direction: column;
+        padding: 1rem;
+      }
+      
+      .header {
+        padding: 1rem;
+      }
+      
+      .header h1 {
+        font-size: 1.5rem;
+      }
+      
+      #ocr-text {
+        font-size: 1rem;
+        min-height: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>
+      🎌 Live Japanese OCR - Clipboard Mode
+      <div class="status-indicator" id="status-indicator"></div>
+    </h1>
+  </div>
+
+  <div class="main-content">
+    <div class="ocr-section">
+      <div class="card">
+        <h2>📝 Extracted Text</h2>
+        <div id="ocr-text" class="empty-state">Take a screenshot to get started...</div>
+      </div>
+
+      <div class="card">
+ 	<h2>📜 History</h2>
+  	<div id="ocr-history" class="empty-state">No history yet...</div>
+      </div>
+
+      <div class="instructions">
+        <h3>📋 How to use:</h3>
+        <ul>
+          <li><strong>Windows:</strong> Win + Shift + S (Snipping Tool)</li>
+          <li><strong>Mac:</strong> Cmd + Shift + 4 (to clipboard)</li>
+          <li><strong>Linux:</strong> Use screenshot tool with clipboard option</li>
+          <li>Screenshot is automatically processed from clipboard</li>
+          <li>Text appears here in real-time</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="info-section">
+      <div class="card">
+        <h2>📊 Status</h2>
+        <div id="status-info">
+          <div class="status-item">
+            <span>Connection:</span>
+            <span class="status-value" id="connection-status">Connecting...</span>
+          </div>
+          <div class="status-item">
+            <span>Clipboard Access:</span>
+            <span class="status-value" id="clipboard-status">Loading...</span>
+          </div>
+          <div class="status-item">
+            <span>Last Processed:</span>
+            <span class="status-value" id="last-processed">None</span>
+          </div>
+          <div class="status-item">
+            <span>OCR Ready:</span>
+            <span class="status-value" id="ocr-status">Loading...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Powered by manga-ocr | Take screenshots with Win+Shift+S (Windows) or Cmd+Shift+4 (Mac) for instant OCR</p>
+  </div>
+
+  <script>
+    let lastText = "";
+    let connectionError = false;
+
+    async function updateText() {
+      try {
+        const res = await fetch("/latest", {cache: "no-store"});
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        
+        const data = await res.json();
+        const textElement = document.getElementById("ocr-text");
+        const statusIndicator = document.getElementById("status-indicator");
+        
+        if (data.text && data.text.trim()) {
+          if (data.text !== lastText) {
+            textElement.textContent = data.text;
+            textElement.className = "";
+            lastText = data.text;
+            
+            // Flash effect for new text
+            textElement.style.background = "rgba(100, 181, 246, 0.2)";
+            setTimeout(() => {
+              textElement.style.background = "rgba(0, 0, 0, 0.3)";
+            }, 500);
+          }
+        } else {
+          textElement.textContent = "Take a screenshot to get started...";
+          textElement.className = "empty-state";
+        }
+        
+        // Update connection status
+        if (connectionError) {
+          connectionError = false;
+          document.getElementById("connection-status").textContent = "Connected";
+          statusIndicator.style.backgroundColor = "#4caf50";
+        }
+        
+      } catch (err) {
+        console.error("Error fetching text:", err);
+        document.getElementById("ocr-text").innerHTML = 
+          `<div class="error">❌ Connection error: ${err.message}</div>`;
+        document.getElementById("connection-status").textContent = "Error";
+        document.getElementById("status-indicator").style.backgroundColor = "#f44336";
+        connectionError = true;
+      }
+    }
+
+    async function updateStatus() {
+      try {
+        const res = await fetch("/status", {cache: "no-store"});
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        
+        const status = await res.json();
+        
+        document.getElementById("clipboard-status").textContent = 
+          status.clipboard_available ? "✅ Available" : "❌ Not Available";
+        document.getElementById("last-processed").textContent = 
+          status.last_processed ? "✅ Ready" : "Waiting for screenshot";
+        document.getElementById("ocr-status").textContent = 
+          status.ocr_ready ? "✅ Ready" : "⏳ Loading";
+        
+        if (!status.clipboard_available) {
+          document.getElementById("clipboard-status").innerHTML = 
+            `<span style="color: #f48fb1">❌ Not Available</span>`;
+        }
+        
+      } catch (err) {
+        console.error("Error fetching status:", err);
+      }
+    }
+
+    async function updateHistory() {
+  try {
+    const res = await fetch("/history", {cache: "no-store"});
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+    const data = await res.json();
+    const historyElement = document.getElementById("ocr-history");
+
+    if (data.length > 0) {
+      historyElement.className = "";
+      historyElement.innerHTML = data
+        .slice().reverse() // newest first
+        .map(item => `<div><strong>[${item.timestamp}]</strong> ${item.text}</div>`)
+        .join("<hr>");
+    } else {
+      historyElement.className = "empty-state";
+      historyElement.textContent = "No history yet...";
+    }
+  } catch (err) {
+    console.error("Error fetching history:", err);
+  }
+}
+
+setInterval(updateHistory, 2000);
+
+
+
+    // Update text frequently, status less frequently
+    setInterval(updateText, 500);
+    setInterval(updateStatus, 5000);
+    
+    // Initial load
+    updateText();
+    updateStatus();
+
+    // Set initial connection status
+    document.getElementById("connection-status").textContent = "Connected";
+  </script>
+</body>
+</html>
