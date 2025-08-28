@@ -6,12 +6,9 @@ The main purpose of ocr2yomitan is to extract text from apps, games and other so
 It was created as a tool for Japanese learners that want to learn thrgouh games in Japanese, without having to use a mobile OCR or having to look up kanji by hand.
 
 # Contact
-For any inquiries, please feel free to contact me at kha-white@mail.com
+For any inquiries, please feel free to contact me at keremyildiz176@gmail.com
 
 # Acknowledgments
-
-- https://github.com/dmMaze/comic-text-detector
-- https://github.com/juvian/Manga-Text-Segmentation
 
 
 
