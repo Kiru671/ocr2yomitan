@@ -24,6 +24,7 @@ It was created as a tool for Japanese learners that want to learn through games 
     ```bash
     python jp_ocr.py
 4. **Take screenshot**
+
    Use win + shift + s or cmd + shift + 4 to take an area screenshot.
 
 **And you should see the site update!**
