@@ -23,6 +23,11 @@ It was created as a tool for Japanese learners that want to learn through games 
 3. **Run OCR script**
     ```bash
     python jp_ocr.py
+4. **Take screenshot**
+   Use win + shift + s or cmd + shift + 4 to take an area screenshot.
+
+**And you should see the site update!**
+
 # Acknowledgements & Links
 
 - [Manga OCR](https://github.com/kha-white/manga-ocr) — Japanese OCR engine used for text recognition.  
