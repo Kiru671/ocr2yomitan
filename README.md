@@ -5,20 +5,11 @@ The main purpose of ocr2yomitan is to extract text from apps, games and other so
 
 It was created as a tool for Japanese learners that want to learn through games in Japanese, without having to use a mobile OCR or having to look up kanji by hand.
 
-<<<<<<< Updated upstream
-# Contact
-For any inquiries, please feel free to contact me at keremyildiz176@gmail.com
-=======
 # Examples
->>>>>>> Stashed changes
 
 <img src="https://i.imgur.com/oARckxH.png" alt="Demon's Souls OCR" width="800"/>
 
-<<<<<<< Updated upstream
-=======
 <img src="https://i.imgur.com/oQrDDCt.png" alt="Demon's Souls Translation" width="800"/>
-
->>>>>>> Stashed changes
 
 # Usage
 
